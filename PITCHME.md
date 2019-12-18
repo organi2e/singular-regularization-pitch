@@ -68,12 +68,12 @@ $$`
 ### 列ベクトルが一次独立であるということは
 自己相関行列 $W^TW$が **対角行列** であるべき
 
-$$
+`$$
 W^TW=\left[\begin{matrix} 
 \lambda_0 & 0 & 0 & \cdots \\
 0 & \lambda_1 & 0 & \cdots \\
 0 & 0 & \lambda_2 & \cdots \\
 \vdots & \vdots & \vdots & \ddots
 \end{matrix}\right]
-$$
+$$`
 
