@@ -37,21 +37,35 @@ $$XM=Y$$
 
 +++
 ### ニューラルネットワークでの特徴量フィルタ2
-$$XM=Y$$
-  
-  
-`$\left[\begin{matrix} x_{0,0} & x_{0,1} & \cdots \\ x_{1,0} & x_{1,1} & \cdots \\ \vdots & \vdots & \ddots \end{matrix}\right] \left[\begin{matrix} w_{0,0} & w_{0,1} & \cdots \\ w_{1,0} & w_{1,1} & \cdots \\ \vdots & \vdots & \ddots \end{matrix}\right] = \left[\begin{matrix} y_{0,0} & y_{0,1} & \cdots \\ y_{1,0} & y_{1,1} & \cdots \\ \vdots & \vdots & \ddots \end{matrix}\right]$`
+`$$\left[\begin{matrix} 
+x_{0,0} & x_{0,1} & \cdots \\ 
+x_{1,0} & x_{1,1} & \cdots \\ 
+\vdots & \vdots & \ddots 
+\end{matrix}\right]
+\left[\begin{matrix} 
+w_{0,0} & w_{0,1} & \cdots \\ 
+w_{1,0} & w_{1,1} & \cdots \\ 
+\vdots & \vdots & \ddots 
+\end{matrix}\right] = 
+\left[\begin{matrix} 
+y_{0,0} & y_{0,1} & \cdots \\ 
+y_{1,0} & y_{1,1} & \cdots \\ 
+\vdots & \vdots & \ddots 
+\end{matrix}\right]$$`
 
-$$
++++
+
+`$$
 y_{i,j}=\sum_{k}x_{i,k}w_{k,j}
-$$
+$$`
+
  - 行列$W$の$j$列目と入力$X$の行ベクトルの相関 
  - 列次数分の$W$フィルタを用意して$X$の特徴量をフィルタリングする 
  - 各種フィルタの効果が似ていると同じ特徴をみてしまい効率が低下する
  - つまり$W$の列ベクトルは **一次独立** であるべき |
 
 +++
-### 列ベクトルが一次であるということは
+### 列ベクトルが一次独立であるということは
 自己相関行列 $W^TW$が **対角行列** であるべき
 
 $$
