@@ -19,6 +19,7 @@ p3
 \]`
 @mathend
 @snapend
+$\sin(x)$
 
 +++
 p4
