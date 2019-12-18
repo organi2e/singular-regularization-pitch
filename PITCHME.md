@@ -40,8 +40,9 @@ $$XM=Y$$
 $$XM=Y$$
   
   
+@math
 $\left[\begin{matrix} x_{0,0} & x_{0,1} & \cdots \\ x_{1,0} & x_{1,1} & \cdots \\ \vdots & \vdots & \ddots \end{matrix}\right] \left[\begin{matrix} w_{0,0} & w_{0,1} & \cdots \\ w_{1,0} & w_{1,1} & \cdots \\ \vdots & \vdots & \ddots \end{matrix}\right] = \left[\begin{matrix} y_{0,0} & y_{0,1} & \cdots \\ y_{1,0} & y_{1,1} & \cdots \\ \vdots & \vdots & \ddots \end{matrix}\right]$
-  
+@mathend
 
 $$
 y_{i,j}=\sum_{k}x_{i,k}w_{k,j}
