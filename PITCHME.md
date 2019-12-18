@@ -3,23 +3,9 @@
 
 ---
 去年の発表の続き
-`\[
-\left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
- \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-\]`
 
 ---
 p3
-@snap[north span-100]
-##### The Cauchy-Schwarz Inequality
-@math
-`\[
-\left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
- \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-\]`
-@mathend
-@snapend
-$\sin(x)$
 
 +++
 p4
@@ -32,11 +18,7 @@ p6
 
 +++
 ### 自己相関行列と特異値
-@math
-`
 行列$M$の特異値分解は$\bf{U\Sigma V^T}$
-`
-@mathend
 
 ---
 p8
