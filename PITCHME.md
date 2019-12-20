@@ -107,7 +107,9 @@ $W^TW=V\Sigma^TU^TU\Sigma V^T$
 $U$は直交行列なので$U^TU=I$  
 $\Sigma$は対角行列なので$\Sigma^T\Sigma=\Sigma^2$  
 すなわち$W^TW=V^T\Sigma^2V$  
-加えて$V$も直交行列なので$W^TW=V^T\Sigma^2V=I$になる条件は$\Sigma=I$  
+  
+加えて$V$も直交行列なので  
+$W^TW=V^T\Sigma^2V=I$になる条件は$\Sigma=I$  
 
 +++  
 
