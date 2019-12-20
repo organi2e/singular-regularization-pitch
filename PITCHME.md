@@ -16,7 +16,7 @@ $$XW=Y$$
 
 +++  
 ### ニューラルネットワークでの特徴量フィルタ1
-$$XM=Y$$
+$$XW=Y$$
   
  - $X$: 入力(行: サンプル次元, 列: 特徴量$\in\mathbb{R}$)
  - $Y$: 出力(行: サンプル次元, 列: 特徴量$\in\mathbb{R}$)
@@ -103,10 +103,11 @@ $W^TW=(U\Sigma V^T)^T(U\Sigma V^T)=V\Sigma U^TU\Sigma V^T$
   
 +++  
 
-$W^TW=V\Sigma U^TU\Sigma V^T$なので  
-$W^TW=I$ならば$\Sigma=I$  
-$\because$$U^TU=I$なので$W^TW=V^T\Sigma^2V$  
-および$V$は直交行列．
+$W^TW=V\Sigma U^TU\Sigma V^T$  
+$U^TU=I$なので  
+$W^TW=V^T\Sigma^2V$  
+および$V$は直交行列なので$W^TW=I$である  
+$W^TW=V^T\Sigma^2V=I$になる条件は$\Sigma=I$  
 
 +++  
 
