@@ -81,13 +81,17 @@ W^TW=\left[\begin{matrix}
 \end{matrix}\right]
 $$`
 
----
+---  
 
+## ところで
+
++++  
+
+## この二つは等価である
 #### 自己相関行列が単位行列
 #### 特異値が全て1
-## この二つは等価である
 
-+++
++++  
 
 $W=U\Sigma V^T$
 のとき
@@ -97,4 +101,4 @@ $W^TW=(U\Sigma V^T)^T(U\Sigma V^T)=V\Sigma U^TU\Sigma V^T$
 
 $W^TW=V\Sigma U^TU\Sigma V^T$なので  
 $W^TW=I$ならば$\Sigma=I$  
-$\because$$U^TU=I$, $W^TW=V^T\Sigma^2V$, $V$の特異値は全て$1$  
+$\because$$U^TU=I$なので$W^TW=V^T\Sigma^2V$．加えて$V$の特異値は全て$1$で$V^TV=I$  
