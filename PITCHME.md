@@ -90,3 +90,11 @@ $$`
 +++
 
 $U\Sigma V^T=W$
+のとき
+$W^TW=(U\Sigma V^T)^T(U\Sigma V^T)=V\Sigma U^TU\Sigma V^T$
+  
+すなわち
+
+$W^TW=1$ならば$\Sigma=I$  
+$\because$
+$U^TU=I$, $W^TW=V^T\Sigma^2V$, $V$の特異値は全て$1$
