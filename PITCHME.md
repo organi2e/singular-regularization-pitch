@@ -97,8 +97,12 @@ $W=U\Sigma V^T$
 のとき
 $W^TW=(U\Sigma V^T)^T(U\Sigma V^T)=V\Sigma U^TU\Sigma V^T$
   
-+++
++++  
+
+証明
+
++++  
 
 $W^TW=V\Sigma U^TU\Sigma V^T$なので  
 $W^TW=I$ならば$\Sigma=I$  
-$\because$$U^TU=I$なので$W^TW=V^T\Sigma^2V$．加えて$V$の特異値は全て$1$で$V^TV=I$  
+$\because$$U^TU=I$なので$W^TW=V^T\Sigma^2V$，および$V$は直交行列．
