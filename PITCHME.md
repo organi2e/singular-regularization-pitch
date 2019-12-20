@@ -104,10 +104,8 @@ $W^TW=(U\Sigma V^T)^T(U\Sigma V^T)=V\Sigma U^TU\Sigma V^T$
 +++  
 
 $W^TW=V\Sigma U^TU\Sigma V^T$  
-$U^TU=I$なので  
-$W^TW=V^T\Sigma^2V$  
-および$V$は直交行列なので$W^TW=I$である  
-$W^TW=V^T\Sigma^2V=I$になる条件は$\Sigma=I$  
+$U^TU=I$なので$W^TW=V^T\Sigma^2V$  
+および$V$は直交行列なので$W^TW=V^T\Sigma^2V=I$になる条件は$\Sigma=I$  
 
 +++  
 
