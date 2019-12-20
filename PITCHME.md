@@ -99,12 +99,12 @@ $F(WX_0)=X_1,~F(WX_1)=X_2,~F(WX_2)=X_3,~\cdots$
 
 $W=U\Sigma V^T$
 のとき
-$W^TW=(U\Sigma V^T)^T(U\Sigma V^T)=V\Sigma U^TU\Sigma V^T$
+$W^TW=(U\Sigma V^T)^T(U\Sigma V^T)=V\Sigma^TU^TU\Sigma V^T$
   
 +++  
 
-$W^TW=V\Sigma U^TU\Sigma V^T$  
-$U^TU=I$なので$W^TW=V^T\Sigma^2V$  
+$W^TW=V\Sigma^TU^TU\Sigma V^T$  
+$U^TU=I$および$\Sigma^T\Sigma=\Sigma^2$なので$W^TW=V^T\Sigma^2V$  
 および$V$は直交行列なので  
 $W^TW=V^T\Sigma^2V=I$になる条件は$\Sigma=I$  
 
