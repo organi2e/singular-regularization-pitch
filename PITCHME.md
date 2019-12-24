@@ -86,6 +86,7 @@ $F(WX_0)=X_1,~F(WX_1)=X_2,~F(WX_2)=X_3,~\cdots$
 ### 自己相関行列$W^TW$のスケールは$1$に近いべき
   
 特にRNNでは出力が再起する
+
 ```mermaid
 group LR
  A --> B;
