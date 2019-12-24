@@ -83,17 +83,15 @@ $F(WX_0)=X_1,~F(WX_1)=X_2,~F(WX_2)=X_3,~\cdots$
 
 +++  
 
-### 自己相関行列$W^TW$のスケールは$1$に近いべき
+### 自己相関行列$W^TW$の固有値は$1$に近いべき
   
-特にRNNでは出力が再起する
-
-@startuml
-actor Alice #yellow
-participant Bob
-Alice->Bob: Auth Request
-Bob->Alice: Auth Response
-@enduml
-
+ - 特にRNNでは出力が再起する
+   - $F\left( WX_t\right) = X_{t+\Delta t}$
+   - 大きい固有値に対応したベクトルばかり強調される
+     - $1$以上だと発散する
+ - $W^TW$の固有値$=$$W$の特異値の二乗
+ - $W$の特異値が全て$1$ならば良い
+  
 ---  
 
 ## ところで
