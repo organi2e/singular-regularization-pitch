@@ -87,14 +87,12 @@ $F(WX_0)=X_1,~F(WX_1)=X_2,~F(WX_2)=X_3,~\cdots$
   
 特にRNNでは出力が再起する
 
-```mermaid
-group LR
- A --> B;
- B --> C;
- C --> A;
-```
-
-
+@startuml
+actor Alice #yellow
+participant Bob
+Alice->Bob: Auth Request
+Bob->Alice: Auth Response
+@enduml
 
 ---  
 
