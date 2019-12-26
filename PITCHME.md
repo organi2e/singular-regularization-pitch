@@ -137,14 +137,14 @@ $W^TW=V^T\Sigma^2V=I$になる条件は$\Sigma=I$
 
 +++  
 
-![X1](assets/img/rout.gif)
+![X1](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/rout.gif?raw=true)
 
 +++  
 
-![X1](assets/img/qout.gif)
+![X1](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/qout.gif?raw=true)
 
 +++  
 
-![X1](assets/img/lout.gif)
+![X1](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/lout.gif?raw=true)
 
 
