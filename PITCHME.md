@@ -143,5 +143,4 @@ $W^TW=V^T\Sigma^2V=I$になる条件は$\Sigma=I$
 |:--------:|:-------:|:----------:|
 | ![X](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/rout.gif?raw=true) | ![Y](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/lout.gif?raw=true) | ![Z](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/qout.gif?raw=true) |
 
-正則化がないと **mode collapse** が発生  
-正則化があれば手法問わず **mode collapse** は発生しない  
+正則化があればmode collapseは発生しない  
