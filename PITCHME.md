@@ -130,3 +130,21 @@ $W^TW=V^T\Sigma^2V=I$になる条件は$\Sigma=I$
 +++  
 
 特徴量
+
+---  
+
+結果  
+
++++  
+
+![X1](assets/img/rout.gif)
+
++++  
+
+![X1](assets/img/qout.gif)
+
++++  
+
+![X1](assets/img/lout.gif)
+
+
