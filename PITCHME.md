@@ -170,4 +170,4 @@ $W^TW=V^T\Sigma^2V=I$になる条件は$\Sigma=I$
 
 | 正則化なし | L2正則化 | 特異値正則化 |
 |:--------:|:-------:|:----------:|
-| ![X1](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/rout_s.gif?raw=true) | ![X1](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/lout_s.gif?raw=true) | ![X1](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/qout_s.gif?raw=true) |
+| ![X1](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/rout.gif?raw=true) | ![X1](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/lout.gif?raw=true) | ![X1](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/qout.gif?raw=true) |
