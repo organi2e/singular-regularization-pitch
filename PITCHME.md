@@ -136,7 +136,7 @@ $W^TW=V^T\Sigma^2V=I$になる条件は$\Sigma=I$
 
 ---
 
-## 従来の正則化との違い
+## 各正則化
 `$$
 W=\left[\begin{matrix}
  w_{0, 0} & w_{0, 1} & \cdots \\
@@ -145,14 +145,21 @@ W=\left[\begin{matrix}
 \end{matrix}\right]
 $$`  
   
- - L1正則化: $\epsilon\sum\|w_{i,j}\|$
- - L2正則化: $\epsilon\sum w_{i,j}^2$
- - 主張: $W^TW$が単位行列時に損失が$\mathbb{0}$となる損失を加算
+ - 正則化に必要な損失を加算
+   - L1正則化: $\epsilon\sum\|w_{i,j}\|$
+   - L2正則化: $\epsilon\sum w_{i,j}^2$
+   - 主張: $W^TW=E$時に損失が$\mathbb{0}$となる損失
 
 ---
-  
- - $M=W^TW$とする
- - $M$が単位
+
+## $W^TW=E$となる損失
+ - 二種類設計できる
+   - $\tr\left(M\right)-\log\det\left(M\right)-D$
+    - $M=W^TW$, $D$は行列の次数
+    - \detが発散しやすいのでコレスキー分解の対角成分を使うと良い
+   - $\sum\left(\sigma-\log\sigma-1\right)$
+    - $U\Sigma V^T=W$
+    - 演算量は多いが数値的に安定
     
 ---
 
