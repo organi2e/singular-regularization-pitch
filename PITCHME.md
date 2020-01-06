@@ -154,10 +154,10 @@ $$`
 
 ## $W^TW=E$となる損失
  - 二種類設計できる
-   - $\trace\left(M\right)-\log\det\left(M\right)-D$
+   - $\rm{tr}\left(M\right)-\log\det\left(M\right)-D$
     - $M=W^TW$, $D$は行列の次数
     - \detが発散しやすいのでコレスキー分解の対角成分を使うと良い
-   - $\sum\left(\sigma-\log\sigma-1\right)$
+   - $\sum\left(\Sigma-\log\Sigma-1\right)$
     - $U\Sigma V^T=W$
     - 演算量は多いが数値的に安定
     
