@@ -145,10 +145,15 @@ W=\left[\begin{matrix}
 \end{matrix}\right]
 $$`  
   
- - $\epsilon\sum\|w_{i,j}\|$
- - $\epsilon\sum w_{i,j}^2$
-  
+ - L1正則化: $\epsilon\sum\|w_{i,j}\|$
+ - L2正則化: $\epsilon\sum w_{i,j}^2$
+ - 主張: $W^TW$が単位行列時に損失が$\mathbb{0}$となる損失を加算
 
+---
+  
+ - $M=W^TW$とする
+ - $M$が単位
+    
 ---
 
 # 数値実験
