@@ -154,11 +154,11 @@ $$`
 
 ## $W^TW=E$となる損失
  - 二種類設計できる
-   - $\rm{tr}\left(M\right)-\log\det\left|M\right|-D$
+   1. $\rm{tr}\left(M\right)-\log\det\left|M\right|-D$
     - $M=W^TW$, $D$は行列の次数
     - $\det\|M\|$が発散しがち
-    - 数値的に不安定だがコレスキ分解で高速に演算
-   - $\sum\left(\Sigma-\log\Sigma-1\right)$
+    - コレスキー分解を経て高速に演算可能
+   2. $\sum\left(\Sigma-\log\Sigma-1\right)$
     - $U\Sigma V^T=W$
     - 演算量は多いが数値的に安定
     
