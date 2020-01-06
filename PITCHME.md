@@ -146,7 +146,7 @@ W=\left[\begin{matrix}
 $$`  
   
  - $\epsilon\sum\|w_{i,j}\|$
- - $\epsilon\sum w_{i,j}^2$
+ - $\epsilon\sum_i w_{i,j}^2$
   
 
 ---
