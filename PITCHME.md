@@ -138,17 +138,14 @@ $W^TW=V^T\Sigma^2V=I$になる条件は$\Sigma=I$
 
 ## 従来の正則化との違い
 `$$
-W=
-\left[
-\begin{matrix}
+W=\left[\begin{matrix}
  w_{0, 0} & w_{0, 1} & \cdots \\
  w_{1, 0} & w_{1, 1} & \cdots \\
  \vdots & \vdots & \ddots
-\end{matrix}
-\right]
+\end{matrix}\right]
 $$`  
   
- - $\sum_{i,j} | w_{i,j} |$
+$\sum_{i,j} | w_{i,j} |$
   
 
 ---
