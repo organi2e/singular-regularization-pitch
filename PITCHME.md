@@ -154,7 +154,7 @@ $$`
 
 ## $W^TW=E$となる損失
  - 二種類設計できる
-   - $\rm{tr}\left(M\right)-\log\det\left(M\right)-D$
+   - $\rm{tr}\left(M\right)-\log\det\left|M\right|-D$
     - $M=W^TW$, $D$は行列の次数
     - $\det$が発散しやすいのでコレスキー分解経由で演算
     - 数値的に不安定だが演算量が少なく高速
