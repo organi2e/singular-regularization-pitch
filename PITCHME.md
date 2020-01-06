@@ -139,6 +139,7 @@ $W^TW=V^T\Sigma^2V=I$になる条件は$\Sigma=I$
 ## 従来の正則化との違い
  - L1正則化 $\sum_{j}\sum_{i} | w_{i,j} |$ を損失に加算
  - L2正則化 $\sum_{j}\sum_{i} w_{i,j}^2$ を損失に加算
+  
 `$$
 W=
 \left[
