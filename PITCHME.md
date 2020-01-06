@@ -157,7 +157,7 @@ $$`
    - $\rm{tr}\left(M\right)-\log\det\left|M\right|-D$
     - $M=W^TW$, $D$は行列の次数
     - $\det\|M\|$が発散しがち
-    - 数値的に不安定だがコレスキー分解経由で高速に演算
+    - 数値的に不安定だがコレスキ分解で高速に演算
    - $\sum\left(\Sigma-\log\Sigma-1\right)$
     - $U\Sigma V^T=W$
     - 演算量は多いが数値的に安定
