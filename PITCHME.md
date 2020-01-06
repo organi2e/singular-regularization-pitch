@@ -156,7 +156,8 @@ $$`
  - 二種類設計できる
    - $\rm{tr}\left(M\right)-\log\det\left(M\right)-D$
     - $M=W^TW$, $D$は行列の次数
-    - \detが発散しやすいのでコレスキー分解の対角成分を使うと良い
+    - $\det$が発散しやすいのでコレスキー分解経由で演算
+    - 数値的に不安定だが演算量が少なく高速
    - $\sum\left(\Sigma-\log\Sigma-1\right)$
     - $U\Sigma V^T=W$
     - 演算量は多いが数値的に安定
