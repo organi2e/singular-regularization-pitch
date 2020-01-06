@@ -145,7 +145,8 @@ W=\left[\begin{matrix}
 \end{matrix}\right]
 $$`  
   
-$\sum{i,j}w_{i,j}$
+ - $\eps\sum\|w_{i,j}\|$
+ - $\eps\sum w_{i,j}^2$
   
 
 ---
