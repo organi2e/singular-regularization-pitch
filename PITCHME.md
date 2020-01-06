@@ -154,7 +154,7 @@ $$`
 
 ## $W^TW=E$となる損失
  - 二種類設計できる
-   - $\tr\left(M\right)-\log\det\left(M\right)-D$
+   - $\trace\left(M\right)-\log\det\left(M\right)-D$
     - $M=W^TW$, $D$は行列の次数
     - \detが発散しやすいのでコレスキー分解の対角成分を使うと良い
    - $\sum\left(\sigma-\log\sigma-1\right)$
