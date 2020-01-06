@@ -145,7 +145,7 @@ W=\left[\begin{matrix}
 \end{matrix}\right]
 $$`  
   
-$\sum_{i,j} | w_{i,j} |$
+$\sum_{i,j}w_{i,j}$
   
 
 ---
