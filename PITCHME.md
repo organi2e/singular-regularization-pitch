@@ -174,17 +174,12 @@ $$`
 ---  
 
 ### 学習後の特異値の分布
-
-![H](assets/img/histogram.png)
-
-正則化項を損失に加えることで特異値が$1$に抑制されている
-
+![正則化項を損失に加えることで特異値が1に抑制されている](assets/img/histogram.png)
+  
 ---   
 
 ### 各層の行列ノルム
-  
-![G](assets/img/generator.png)
-![D](assets/img/discriminator.png)
+![正則化によって全層の負担率が一律に統一されている](assets/img/norm.png)
   
 ---  
   
