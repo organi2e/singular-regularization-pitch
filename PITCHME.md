@@ -161,6 +161,7 @@ $$`
    2. $\rm{tr}\left(\Sigma-\log\Sigma-E\right)$
     - $U\Sigma V^T=W$
     - 演算量は多いが数値的に安定
+    - 本発表ではこちらを採用
   
 ---
   
