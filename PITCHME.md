@@ -175,7 +175,11 @@ $$`
  - その他の条件: 割愛(ipynb参照)
 
 ---  
-
+  
+## MNISTでの学習結果
+  
+---
+  
 ### 学習後の特異値の分布
 ![正則化項を損失に加えることで特異値が1に抑制されている](assets/img/histogram.png)
   
@@ -188,10 +192,11 @@ $$`
   
 #### 各epochごとの学習段階で生成される画像
   
----  
+| 正則化なし | L2正則化 | 特異値正則化 |
+|:--------:|:-------:|:----------:|
+| ![X](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/rout.gif?raw=true) | ![Y](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/lout.gif?raw=true) | ![Z](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/qout.gif?raw=true) |
   
-#### おまけ
-同じモデルでFashion-MNISTも試した
+---  
 
 ---  
 
@@ -200,5 +205,4 @@ $$`
 | 正則化なし | L2正則化 | 特異値正則化 |
 |:--------:|:-------:|:----------:|
 | ![X](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/rout.gif?raw=true) | ![Y](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/lout.gif?raw=true) | ![Z](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/qout.gif?raw=true) |
-
 正則化があればmode collapseは発生しない  
