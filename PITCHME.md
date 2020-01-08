@@ -158,7 +158,7 @@ $$`
     - $M=W^TW$, $D$は行列の次数
     - $\det\|M\|$が発散しがち
     - コレスキー分解を経て高速に演算可能
-   2. $\rm{tr}\left(\Sigma-\log\Sigma-E\right)\Leftrightarrow$
+   2. $\rm{tr}\left(\Sigma-\log\Sigma-E\right)\Leftrightarrow\sum_k\left(\sigma_k\right)$
     - $U\Sigma V^T=W$
     - 演算量は多いが数値的に安定
     - 本発表ではこちらを採用
