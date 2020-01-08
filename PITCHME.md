@@ -194,7 +194,7 @@ $$`
   
 | 正則化なし | L2正則化 | 特異値正則化 |
 |:--------:|:-------:|:----------:|
-| ![X](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/r_mnist.gif?raw=true) | ![Y](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/l_mnist.gif?raw=true) | ![Z](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/q_mnist.gif?raw=true) |
+| ![X](https://github.com/temporarius/singular-regularization-pitch/blob/draft/assets/img/r_mnist.gif?raw=true) | ![Y](https://github.com/temporarius/singular-regularization-pitch/blob/draft/assets/img/l_mnist.gif?raw=true) | ![Z](https://github.com/temporarius/singular-regularization-pitch/blob/draft/assets/img/q_mnist.gif?raw=true) |
   
 ---  
   
@@ -216,7 +216,7 @@ $$`
   
 | 正則化なし | L2正則化 | 特異値正則化 |
 |:--------:|:-------:|:----------:|
-| ![X](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/rout.gif?raw=true) | ![Y](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/lout.gif?raw=true) | ![Z](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/qout.gif?raw=true) |
+| ![X](https://github.com/temporarius/singular-regularization-pitch/blob/draft/assets/img/rout.gif?raw=true) | ![Y](https://github.com/temporarius/singular-regularization-pitch/blob/draft/assets/img/lout.gif?raw=true) | ![Z](https://github.com/temporarius/singular-regularization-pitch/blob/draft/assets/img/qout.gif?raw=true) |
   
 ---  
 
