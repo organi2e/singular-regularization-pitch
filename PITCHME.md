@@ -161,18 +161,31 @@ $$`
    2. $\rm{tr}\left(\Sigma-\log\Sigma-E\right)$
     - $U\Sigma V^T=W$
     - 演算量は多いが数値的に安定
-    
+  
 ---
-
+  
 # 数値実験
 正則化の影響で過学習を防ぎ各フィルタを効率的に用いているか分析
  - モデル: DCGAN
-   - 理想的には正則化
- - データセット: MNIST(Fashion-MNIST)
- - その他実験条件: 割愛(ipynb参照)
+   - 正則化しなければmode collapseしやすい
+ - データセット: MNIST, Fashion-MNIST
+ - その他の条件: 割愛(ipynb参照)
 
 ---  
 
+# 学習後の特異値の分布
+
+| Generator | Discriminator |
+|:---------:|:-------------:|
+| ![G](assets/img/generator.png) | ![D](assets/img/discriminator.png) |
+
+---  
+  
+# 学習後のジェネレータのモデル(1層目)
+ - L1正則化時の特異値: $0.13$, $0.29$
+ - L2正則化時の特異値: $1.69\sim 5.8$, $1.69$
+ - 特異値生息化時の特異値: $1.0\sim 2.4$, $1.01$
+  
 ---  
 
 ---  
