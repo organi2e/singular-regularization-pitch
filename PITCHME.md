@@ -172,7 +172,7 @@ $$`
  - 生成モデル: Dense1層$\rightarrow$Conv4層
  - 識別モデル: Conv4層$\rightarrow$Dense1層
  - データセット: MNIST, Fashion-MNIST
- - その他の条件: 割愛(ipynb参照)
+ - その他の条件: 割愛([ipynb](assets/nb)参照)
 
 ---  
   
