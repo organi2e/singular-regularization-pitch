@@ -183,9 +183,8 @@ $$`
 
 ### 各層の行列ノルム
   
-| Generator | Discriminator |
-|:---------:|:-------------:|
-| ![G](assets/img/generator.png) | ![D](assets/img/discriminator.png) |
+![G](assets/img/generator.png)
+![D](assets/img/discriminator.png)
   
 ---  
   
