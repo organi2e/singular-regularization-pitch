@@ -169,8 +169,8 @@ $$`
 正則化の影響で過学習を防ぎ各フィルタを効率的に用いているか分析
  - タスク: DCGAN
    - 正則化しなければmode collapseしやすい
- - 生成モデル: Dense1層$\rarrow$Conv4層
- - 識別モデル: Conv4層$\rarrow$Dense1層
+ - 生成モデル: Dense1層$\rarrows$Conv4層
+ - 識別モデル: Conv4層$\rarrows$Dense1層
  - データセット: MNIST, Fashion-MNIST
  - その他の条件: 割愛(ipynb参照)
 
