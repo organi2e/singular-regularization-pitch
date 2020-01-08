@@ -166,11 +166,12 @@ $$`
 ---
   
 ## 数値実験
-正則化の影響で過学習を防ぎ各フィルタを効率的に用いているか分析
+正則化の影響を分析
  - タスク: DCGAN
    - 正則化しなければmode collapseしやすい
  - 生成モデル: Dense1層$\rightarrow$Conv4層
  - 識別モデル: Conv4層$\rightarrow$Dense1層
+ - 非線形活性化関数: Leaky-ReLU(0.2)
  - データセット: MNIST, Fashion-MNIST
  - その他の条件: 割愛([ipynb](https://github.com/temporarius/singular-regularization-pitch/tree/draft/assets/nb)参照)
 
