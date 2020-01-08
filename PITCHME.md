@@ -197,12 +197,31 @@ $$`
 | ![X](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/rout.gif?raw=true) | ![Y](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/lout.gif?raw=true) | ![Z](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/qout.gif?raw=true) |
   
 ---  
+  
+## MNISTでの学習結果
+  
+---
+  
+### 学習後の特異値の分布
+![正則化項を損失に加えることで特異値が1に抑制されている](assets/img/histogram.png)
+  
+---   
 
+### 各層のスペクトルノルム
+![正則化によって全層の負担率が一律に統一されている](assets/img/norm.png)
+  
 ---  
-
-#### 各epochごと学習段階で生成される画像
-
+  
+#### 各epochごとの学習段階で生成される画像
+  
 | 正則化なし | L2正則化 | 特異値正則化 |
 |:--------:|:-------:|:----------:|
 | ![X](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/rout.gif?raw=true) | ![Y](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/lout.gif?raw=true) | ![Z](https://github.com/sonitus/singular-regularization-pitch/blob/draft/assets/img/qout.gif?raw=true) |
-正則化があればmode collapseは発生しない  
+  
+---  
+
+## まとめと展望
+ - 本発表ではNNの行列は正則化されるべきと主張
+ - 自己相関行列を単位行列にするか特異値を$1$にする正則化手法を提案
+ - DCGANの数値実験ではmode collapseがなく理想とする結果が得られた
+ - できればもっと高分解能なモデルにも適用したい(が$\cdots\cdots$)
