@@ -161,7 +161,7 @@ $$`
    2. $\rm{tr}\left(\Sigma-\log\left|\Sigma\right|-E\right)\Leftrightarrow\sum_k\left(\sigma_k-\log\sigma_k-1\right)$
     - $U\Sigma V^T=W$, $\sigma_k=\rm{tr}_k\left(\Sigma\right)$
     - 演算量は多いが数値的に安定
-     - 逐次演算の解法で前回の解を初期値に利用すれば早いのでは?
+      - 逐次演算の解法で前回の解を初期値に利用すれば早いのでは?
     - 本発表ではこちらを採用
   
 ---
