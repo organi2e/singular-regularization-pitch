@@ -159,7 +159,7 @@ $$`
     - $\det\|M\|$が発散しがち
     - コレスキー分解を経て高速に演算可能
    2. $\rm{tr}\left(\Sigma-\log\Sigma-E\right)\Leftrightarrow\sum_k\left(\sigma_k-\log\sigma_k-1\right)$
-    - $U\Sigma V^T=W$, $\sigma_k=\rm{tr}_k\Sigma$
+    - $U\Sigma V^T=W$, $\sigma_k=\rm{tr}_k\left(\Sigma\right)$
     - 演算量は多いが数値的に安定
     - 本発表ではこちらを採用
   
