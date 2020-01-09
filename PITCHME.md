@@ -154,11 +154,11 @@ $$`
 ---
 
 ## 正則化項の設計(2種類)
-  1. $\rm{tr}\left(M\right)-\log\det\left|M\right|-D$
+  1. $\rm{tr}\left(M\right)-\log\left|M\right|-D$
     - $M=W^TW$, $D$は行列の次数
     - $\det\|M\|$が発散しがち
     - コレスキー分解を経て高速に演算可能
-  2. $\rm{tr}\left(\Sigma-\log\Sigma-E\right)\Leftrightarrow\sum_k\left(\sigma_k-\log\sigma_k-1\right)$
+  2. $\rm{tr}\left(\Sigma-\logm\Sigma-E\right)\Leftrightarrow\sum_k\left(\sigma_k-\log\sigma_k-1\right)$
     - $U\Sigma V^T=W$, $\sigma_k=\rm{tr}_k\left(\Sigma\right)$
     - 演算量は多いが数値的に安定
     - 本発表ではこちらを採用
