@@ -147,7 +147,7 @@ $$`
   
  - 正則化に必要な損失を加算
    - L1正則化: $\epsilon\sum\|w_{i,j}\|$
-   - L2正則化: $\epsilon\sum w_{i,j}^2$ (Frobeniusノルムが損失)
+   - L2正則化: $\epsilon\sum w_{i,j}^2$ (Frobeniusノルム$=0$で損失が$\mathbb{0}$)
    - 特異値正則化: ($W^TW=E$時に損失が$\mathbb{0}$)
 
 ---
