@@ -156,7 +156,7 @@ $$`
 ## 正則化項の設計(2種類)
   1. $\rm{tr}\left(M\right)-\log\left|M\right|-D$
     - $M=W^TW$, $D$は行列の次数
-    - $\det\|M\|$が発散しがち
+    - $\|M\|$が発散しがちで学習時には逆行列が必要
     - コレスキー分解を経て高速に演算可能
   2. $\rm{tr}\left(\Sigma-\log\Sigma-E\right)\Leftrightarrow\sum_k\left(\sigma_k-\log\sigma_k-1\right)$
     - $U\Sigma V^T=W$, $\sigma_k=\rm{tr}_k\left(\Sigma\right)$
