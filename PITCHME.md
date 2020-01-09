@@ -136,7 +136,7 @@ $W^TW=V^T\Sigma^2V=E$になる条件は$\Sigma=E$
 
 ---
 
-## 各正則化
+## 従来の正則化との比較
 `$$
 W=\left[\begin{matrix}
  w_{0, 0} & w_{0, 1} & \cdots \\
